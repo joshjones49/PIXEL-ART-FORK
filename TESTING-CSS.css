@@ -1,0 +1,75 @@
+body{
+    background-color: darkslategrey;
+    display: grid;
+}
+
+h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-shadow: -3px 5px black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.clearButton{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+    text-shadow: 1px 3px black;
+    width: 120px;
+    height: 35px;
+    position: fixed;
+    right: 675px;
+    top: 260px;
+}
+
+.clearButton:hover{
+    background-color: black;
+    text-shadow: 2px 3px red;
+    color: white;
+
+}
+
+
+.container{
+    border-radius: 20px;
+    right: 400px;
+}
+
+.grid{
+    border-radius: 3px;
+}
+
+.eraser{
+    border-radius: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: fixed;
+    right: 690px;
+    top: 300px;
+    cursor: grab;
+    -webkit-text-stroke: .5px white;
+    background-color: rgb(255, 126, 147);
+    text-align: center;
+}
+
+.eraser:hover{
+    background-color: pink;
+}
+
+.colorBoard{
+    position: fixed;
+    top: 350px;
+    right: 640px;
+    border-radius: 15px;
+}
+
+.colorButtons{
+    border-radius: 10px;
+    cursor: pointer;
+}
